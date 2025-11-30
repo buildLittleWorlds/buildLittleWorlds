@@ -1,3 +1,5 @@
+![Densworld](hero.png)
+
 # Densworld Courses
 
 **Learn data science, machine learning, and AI through a fictional world you can't cheat on.**

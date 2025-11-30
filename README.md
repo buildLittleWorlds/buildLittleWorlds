@@ -4,7 +4,7 @@
 
 **Learn data science, machine learning, and AI through a fictional world you can't cheat.**
 
-I'm Daniel Plate—AI researcher, applied AI professor, and creative writer at [Lindenwood University](https://www.lindenwood.edu/). I hold a Ph.D. in Literature (Washington University in St. Louis), an M.A. in Human-Centered AI (Lindenwood), and an M.F.A. in Creative Writing (University of Arkansas). My research focuses on AI integration in humanities education, and I've published multiple books and peer-reviewed articles on the subject.
+I'm Daniel Plate. AI researcher, applied AI professor, and creative writer at [Lindenwood University](https://www.lindenwood.edu/). I hold a Ph.D. in Literature (Washington University in St. Louis), an M.A. in Human-Centered AI (Lindenwood), and an M.F.A. in Creative Writing (University of Arkansas). My research focuses on AI integration in humanities education, and I've published multiple books and peer-reviewed articles on the subject.
 
 These courses teach real, transferable technical skills using synthetic datasets extracted from a ~70,000-line fictional archive I've developed over many years. Students can't copy answers from Stack Overflow because no one else has ever analyzed Yeller Quarry trap records or Capital Archives manuscripts. **You have to actually learn.**
 

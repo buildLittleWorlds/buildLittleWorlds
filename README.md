@@ -10,30 +10,52 @@ These courses teach real, transferable technical skills using synthetic datasets
 
 ---
 
-## Two Learning Paths
+## Where to Start
 
-### Foundational Data Science & ML
+### Absolute Beginners
+**[Gateway to Densworld](https://github.com/buildLittleWorlds/gateway-to-densworld)** (10 tutorials)
+New to Python or Google Colab? Start here. You'll learn notebook fundamentals—running cells, variables, loops, functions, pandas—by exploring the fictional world region by region. No prerequisites.
 
-Start here if you're new to Python, data science, or machine learning. Each course is self-contained.
+### Know Python, Want Data Science
+**[Yeller Quarry Data Science](https://github.com/buildLittleWorlds/yeller-quarry-data-science)** (10 tutorials)
+Learn pandas by investigating creature sightings, trap deployments, and—eventually—three missing children.
 
-| Course | What You'll Learn | Tutorials |
-|--------|-------------------|-----------|
-| [Yeller Quarry Data Science](https://github.com/buildLittleWorlds/yeller-quarry-data-science) | Pandas, data analysis, exploratory data science | 10 |
-| [Capital Archives NLP](https://github.com/buildLittleWorlds/capital-archives-nlp) | Natural language processing, text analysis, stylometry | 10 |
-| [ML Math with Densworld](https://github.com/buildLittleWorlds/ml-math-with-densworld) | Statistics, linear algebra, calculus for ML | 4 modules |
-| [Journeys and Graphs](https://github.com/buildLittleWorlds/journeys-and-graphs) | Graph theory, network analysis | 6 |
-| [Densmok CC Analytics](https://github.com/buildLittleWorlds/densmok-cc-analytics) | Time series, anomaly detection, survival analysis | 5 |
-| [Densworld API Course](https://github.com/buildLittleWorlds/densworld-api-course) | FastAPI, REST APIs, databases, authentication | 9 |
+### Know Python, Want Modern AI/ML
+**[The Archivist's Inference Engine](https://github.com/buildLittleWorlds/archivist-inference-engine)** (10 tutorials)
+Become an "inference clerk" in the Capital Archives, learning to use Hugging Face transformers for real NLP tasks.
+
+### Interested in How the Data Was Created?
+**[The Noise and the Signal](https://github.com/buildLittleWorlds/noise-and-signal)** (11+ tutorials, 3 tracks)
+Learn the methodology behind all these courses—extracting structured datasets from messy, narrative text.
 
 ---
 
-### Hugging Face AI/ML Series
+## The Full Curriculum (17 Courses)
 
-A sequential seven-course journey through modern AI infrastructure, culminating in a fine-tuned domain-specific language model. **Take these in order.**
+### Foundational Courses
+
+Self-contained courses covering core data science and development skills.
+
+| Course | What You'll Learn | Tutorials |
+|--------|-------------------|-----------|
+| [Gateway to Densworld](https://github.com/buildLittleWorlds/gateway-to-densworld) | Google Colab, Python basics, pandas introduction | 10 |
+| [Yeller Quarry Data Science](https://github.com/buildLittleWorlds/yeller-quarry-data-science) | Pandas, data analysis, exploratory data science | 10 |
+| [Capital Archives NLP](https://github.com/buildLittleWorlds/capital-archives-nlp) | Natural language processing, text analysis, stylometry | 10 |
+| [ML Math with Densworld](https://github.com/buildLittleWorlds/ml-math-with-densworld) | Statistics, linear algebra, calculus for ML | 16 |
+| [Journeys and Graphs](https://github.com/buildLittleWorlds/journeys-and-graphs) | Graph theory, network analysis | 6 |
+| [Densmok CC Analytics](https://github.com/buildLittleWorlds/densmok-cc-analytics) | Time series, anomaly detection, survival analysis | 5 |
+| [Densworld API Course](https://github.com/buildLittleWorlds/densworld-api-course) | FastAPI, REST APIs, databases, authentication | 9 |
+| [Dead River Synthetic Data Lab](https://github.com/buildLittleWorlds/dead-river-data) | Synthetic data generation methodology | Project |
+
+---
+
+### Hugging Face Series (7 Courses)
+
+A sequential journey through modern AI infrastructure, culminating in a fine-tuned domain-specific language model. **Take these in order.**
 
 | # | Course | What You'll Build | Tutorials |
 |---|--------|-------------------|-----------|
-| 1 | [The Archivist's Inference Engine](https://github.com/buildLittleWorlds/archivist-inference-engine) | Use pre-trained models for classification, NER, summarization, Q&A | 10 |
+| 1 | [The Archivist's Inference Engine](https://github.com/buildLittleWorlds/archivist-inference-engine) | Pre-trained models for classification, NER, summarization, Q&A | 10 |
 | 2 | [The Expedition Cartographer's Workshop](https://github.com/buildLittleWorlds/expedition-cartographer-workshop) | Embeddings, vector databases (FAISS), semantic search | 10 |
 | 3 | [The Space Builders of Mirado](https://github.com/buildLittleWorlds/space-builders-mirado) | Gradio interfaces, HF Spaces deployment | 8 |
 | 4 | [The Forge at Yeller Quarry](https://github.com/buildLittleWorlds/forge-yeller-quarry) | Fine-tune language models with LoRA/PEFT | 13 |
@@ -43,16 +65,30 @@ A sequential seven-course journey through modern AI infrastructure, culminating 
 
 ---
 
-## Where to Start
+### Puzzle Series (2 Courses)
 
-**New to programming or data science?**
-Start with [Yeller Quarry Data Science](https://github.com/buildLittleWorlds/yeller-quarry-data-science). You'll learn pandas by investigating creature sightings, trap deployments, and—eventually—three missing children.
+Pattern recognition and formal language design through jigsaw puzzles and constructed languages.
 
-**Know Python, want to learn modern AI/ML?**
-Start with [The Archivist's Inference Engine](https://github.com/buildLittleWorlds/archivist-inference-engine). You'll become an "inference clerk" in the Capital Archives, learning to use Hugging Face transformers for real NLP tasks.
+| # | Course | What You'll Learn | Tutorials |
+|---|--------|-------------------|-----------|
+| 1 | [Codes, Puzzles, and Pattern Recognition](https://github.com/buildLittleWorlds/codes-puzzles-pattern-recognition) | Combinatorics, constraint satisfaction, information theory | 8 |
+| 2 | [Constructed Languages and Formal Systems](https://github.com/buildLittleWorlds/constructed-languages-formal-systems) | Formal grammars, phoneme systems, language design | 8 |
 
-**Interested in how the data was created?**
-[The Noise and the Signal](https://github.com/buildLittleWorlds/noise-and-signal) teaches the methodology behind all these courses—how to extract structured datasets from messy, narrative text.
+---
+
+### Spatial Series (5 Courses)
+
+Explore Densworld's alternative spatial physics through data analysis. The series builds toward a "fourth-wall break" where students discover that the fictional concepts map to real mathematics, physics, and philosophy.
+
+| # | Course | What You'll Learn | Tutorials |
+|---|--------|-------------------|-----------|
+| 1 | [The Surveyor's Art](https://github.com/buildLittleWorlds/surveyors-art) | Time series analysis, hypothesis testing | 6 |
+| 2 | [The Cartographer's Dilemma](https://github.com/buildLittleWorlds/02-cartographers-dilemma) | Coordinate systems, observer effects | 6 |
+| 3 | [The Archivist's Paradox](https://github.com/buildLittleWorlds/03-archivists-paradox) | Classification, information theory, performativity | 6 |
+| 4 | [The Senator's Question](https://github.com/buildLittleWorlds/04-senators-question) | Policy analysis, text mining, institutional dynamics | 6 |
+| 5 | [The Translation](https://github.com/buildLittleWorlds/the-translation) | Philosophy of space, foundations of mathematics | 6 |
+
+**The reveal:** By Course 5, students discover they've been learning real frameworks all along—quantum measurement, dynamical systems, process philosophy, non-Euclidean geometry—through the lens of fiction.
 
 ---
 

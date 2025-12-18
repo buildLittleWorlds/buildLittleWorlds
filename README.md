@@ -215,7 +215,7 @@ Start with [The Form Library](https://github.com/buildLittleWorlds/philosophy-fo
 
 ## About
 
-I'm Daniel Plate—AI researcher, applied AI professor, and creative writer at [Lindenwood University](https://www.lindenwood.edu/).
+I'm Daniel Plate—AI researcher, applied AI professor, and creative writer at [Lindenwood University](https://www.lindenwood.edu/arts-and-humanities/english-language-interdisciplinary-studies/).
 
 **Credentials:** Ph.D. Literature (Washington University in St. Louis), M.A. Human-Centered AI (Lindenwood), M.F.A. Creative Writing (University of Arkansas)
 

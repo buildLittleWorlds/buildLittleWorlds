@@ -4,7 +4,9 @@
 
 In 847, a scholar named Pemlik Tross proposed that entities cluster not by surface similarity but by invisible threads of sympathy and antipathy—attractions and repulsions that only reveal themselves through careful measurement.
 
-He was describing spectral clustering. He just didn't know it yet. ➜ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/philosophy-boundary-dynamics/blob/main/notebooks/tutorial_02_signed_graphs_and_tension_field.ipynb)
+He was describing spectral clustering. He just didn't know it yet.
+
+**Try it:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/philosophy-boundary-dynamics/blob/main/notebooks/tutorial_02_signed_graphs_and_tension_field.ipynb)
 
 Tross is fictional. His mathematics are not.
 
@@ -52,7 +54,9 @@ The fiction doesn't water down the math. The math doesn't trivialize the fiction
 > *"The paths between forms are not straight lines through empty space, but channels carved by countless previous traversals. Where many have gone, the way becomes easier; where none have ventured, the resistance grows."*
 > — Rellen Voss, *Navigation Principles* MS-2847
 
-This is momentum in gradient descent. Voss is describing how accumulated updates create preferential pathways through parameter space. ➜ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/philosophy-attractor-navigation/blob/main/notebooks/tutorial_01_the_destination_paradox.ipynb)
+This is momentum in gradient descent. Voss is describing how accumulated updates create preferential pathways through parameter space.
+
+**Try it:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/philosophy-attractor-navigation/blob/main/notebooks/tutorial_01_the_destination_paradox.ipynb)
 
 > *"I have examined the same manuscript as Archivist Hennel, and where he sees a treatise on classification, I see a meditation on the impossibility of classification. We are both correct. We are examining different objects that occupy the same space."*
 > — Tobin Creel, *Notes on Observer-Dependent Documentation*
@@ -72,13 +76,19 @@ The Dens is not a place. It is a phenomenon—unstable ground where coordinates 
 
 The **Capital** sends surveyors and scholars to map it. They fail. The Council of Cartographers insists on instrumental observation; the Dens refuses to be measured. Towns at the boundary lose blocks each decade—houses, streets, families swallowed by shifting ground.
 
-In **Yeller Quarry**, trappers harvest creatures whose behavior follows prime-number cycles. Every 2, 3, 5, 7, 11 days, the patterns shift. A mathematician named Pollus Brent discovered this grammar—then grew uncertain whether he had discovered anything at all, or merely named what the trappers already knew. ➜ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/yeller-quarry-data-science/blob/main/notebooks/tutorial_07_patterns_darkness.ipynb)
+In **Yeller Quarry**, trappers harvest creatures whose behavior follows prime-number cycles. Every 2, 3, 5, 7, 11 days, the patterns shift. A mathematician named Pollus Brent discovered this grammar—then grew uncertain whether he had discovered anything at all, or merely named what the trappers already knew.
+
+**Try it:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/yeller-quarry-data-science/blob/main/notebooks/tutorial_07_patterns_darkness.ipynb)
 
 **Yeller herself** is five women who move in perfect synchronization. She speaks once to each person who finds her. Her words contain the answer to the question you've been asking your whole life. You cannot remember them after she finishes speaking. Some people die trying to hear her again.
 
-In the desert of **Mirado**, a Colonel has been besieging a hovering tower for twenty years. ➜ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/space-builders-mirado/blob/main/notebooks/tutorial_01_the_engineers_draft.ipynb)
+In the desert of **Mirado**, a Colonel has been besieging a hovering tower for twenty years.
 
-The **Archive** in the Capital knows things no individual archivist knows. Documents are found without being searched for. Knowledge persists across complete generational turnover. One scholar, Tessyn Mord, began to suspect the Archive is not a collection but a mind—and the archivists are not its managers but its neurons. ➜ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/philosophy-modular-agency/blob/main/notebooks/tutorial_01_the_federation_problem.ipynb)
+**Try it:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/space-builders-mirado/blob/main/notebooks/tutorial_01_the_engineers_draft.ipynb)
+
+The **Archive** in the Capital knows things no individual archivist knows. Documents are found without being searched for. Knowledge persists across complete generational turnover. One scholar, Tessyn Mord, began to suspect the Archive is not a collection but a mind—and the archivists are not its managers but its neurons.
+
+**Try it:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/buildLittleWorlds/philosophy-modular-agency/blob/main/notebooks/tutorial_01_the_federation_problem.ipynb)
 
 This is the world your data comes from. The creature catalogs, the expedition logs, the scholarly manuscripts, the survey measurements—all of it extracted from a place that shouldn't exist.
 

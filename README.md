@@ -2,41 +2,51 @@
 
 ## What Is This?
 
-**Densworld** is a fictional universe where scholars debate whether minds have geometry and creatures resist classification. The courses here teach real ML/statistics through that fiction—each scholar's philosophical framework maps to an actual technique.
+This is an experiment in learning technical subjects by building a fictional world around them.
 
-This repository has grown into three interconnected systems:
+I'm teaching myself ML, statistics, data engineering, and web development by creating **Densworld**—a fictional universe where scholars debate whether minds have geometry, creatures resist classification, and the territory near the Dens won't hold still long enough to be mapped. Each course documents what I learned. Each dataset is a piece of the world. The encyclopedia keeps it all consistent.
 
-1. **Courses** — Jupyter notebooks teaching data science through Densworld narrative
-2. **Datasets** — 200+ CSV files containing structured lore (scholars, creatures, places, events)
-3. **Encyclopedia** — Entity registry connecting ~500 characters, places, and concepts across the world
+The constraint I've imposed: **don't break the fourth wall**. The courses stay in character. The datasets contain structured lore, not tutorial examples. The fictional scholars' philosophical frameworks map to real ML techniques, but they don't know they're teaching you anything.
+
+If you want to learn these techniques alongside me, the courses are here. If you want to explore the world, the datasets are here. If you're interested in how fiction and structured data can interweave, that's what this whole thing is about.
 
 ---
 
-## The Courses
+## The Scale of the Experiment
 
-### Foundations
-| Course | Focus |
-|--------|-------|
-| [Gateway to Densworld](https://github.com/buildLittleWorlds/gateway-to-densworld) | Python basics through world orientation |
-| [Yeller Quarry Data Science](https://github.com/buildLittleWorlds/yeller-quarry-data-science) | Pandas through a missing-persons investigation |
+| Component | Count | Notes |
+|-----------|-------|-------|
+| Jupyter notebooks | 446 | Teaching ML/stats/web dev through narrative |
+| CSV datasets | 201 | Structured lore: scholars, creatures, places, events |
+| Encyclopedia entities | ~2,000 | Characters, places, concepts tracked for consistency |
+| Ore fragments | 150+ | Source narrative material (some hand-written, some AI-assisted) |
+| Course series | 14 | Different entry points, different techniques |
 
-### Philosophy of Pattern (9 courses)
-Each course follows one scholar's framework and builds a working ML implementation.
+This is a personal project that grew larger than intended. Some courses are polished; others are scaffolding. Some series are complete; others have two notebooks and a plan. The documentation below tries to be honest about what's finished and what isn't.
+
+---
+
+## What's Actually Here
+
+### Completed and Polished
+
+**Philosophy of Pattern (9 courses)** — The most developed series. Each course follows one fictional scholar whose framework maps to an ML technique.
 
 | Course | Scholar | You Will Learn |
 |--------|---------|----------------|
 | [The Form Library](https://github.com/buildLittleWorlds/philosophy-form-library) | Erris Pol | Dimensionality reduction, t-SNE, UMAP |
 | [Hierarchy of Minds](https://github.com/buildLittleWorlds/philosophy-hierarchy-of-minds) | Pell Anster | Hierarchical clustering, dendrograms |
-| [Boundary Dynamics](https://github.com/buildLittleWorlds/philosophy-boundary-dynamics) | Pemlik Tross | Spectral clustering, signed graphs, graph Laplacians |
-| [Attractor Navigation](https://github.com/buildLittleWorlds/philosophy-attractor-navigation) | Rellen Voss | Gradient descent, momentum, optimization |
-| [Ghost Persistence](https://github.com/buildLittleWorlds/philosophy-ghost-persistence) | Sareth Moll | Memory systems, attention, exponential decay |
+| [Boundary Dynamics](https://github.com/buildLittleWorlds/philosophy-boundary-dynamics) | Pemlik Tross | Spectral clustering, signed graphs |
+| [Attractor Navigation](https://github.com/buildLittleWorlds/philosophy-attractor-navigation) | Rellen Voss | Gradient descent, optimization |
+| [Ghost Persistence](https://github.com/buildLittleWorlds/philosophy-ghost-persistence) | Sareth Moll | Memory systems, attention mechanisms |
 | [Modular Agency](https://github.com/buildLittleWorlds/philosophy-modular-agency) | Tessyn Mord | Multi-agent systems, trust networks |
-| [Ingression Mechanics](https://github.com/buildLittleWorlds/philosophy-ingression-mechanics) | Archon Vells | Generative models, latent space sampling |
+| [Ingression Mechanics](https://github.com/buildLittleWorlds/philosophy-ingression-mechanics) | Archon Vells | Generative models, latent space |
 | [Pathology and Failure](https://github.com/buildLittleWorlds/philosophy-pathology-failure) | Kella Vorn | Anomaly detection, failure analysis |
 | [The Opacity Conventions](https://github.com/buildLittleWorlds/philosophy-opacity-conventions) | Kellis Vorn | Privacy-preserving ML, differential privacy |
 
-### Spatial Series (5 courses)
-Where coordinates curve, measurement becomes philosophy, and the Archive's classification systems start to fail.
+Each has 10+ notebooks, integrated datasets, and documentation connecting the fictional framework to the real technique.
+
+**Spatial Series (5 courses)** — Where coordinates curve and the Archive's classification systems fail.
 
 | Course | Focus |
 |--------|-------|
@@ -44,136 +54,118 @@ Where coordinates curve, measurement becomes philosophy, and the Archive's class
 | [The Cartographer's Dilemma](https://github.com/buildLittleWorlds/cartographers-dilemma) | Coordinate systems, observer effects |
 | [The Archivist's Paradox](https://github.com/buildLittleWorlds/archivists-paradox) | Classification, information theory |
 | [The Senator's Question](https://github.com/buildLittleWorlds/senators-question) | Policy analysis, text mining |
-| [The Translation](https://github.com/buildLittleWorlds/the-translation) | The fourth wall breaks |
+| [The Translation](https://github.com/buildLittleWorlds/the-translation) | The fourth wall breaks (intentionally) |
 
-### Standalone Courses
+**Standalone Courses** — Complete single courses.
+
 | Course | Focus |
 |--------|-------|
 | [Capital Archives NLP](https://github.com/buildLittleWorlds/capital-archives-nlp) | Natural language processing |
-| [ML Math with Densworld](https://github.com/buildLittleWorlds/ml-math-with-densworld) | Statistics, linear algebra, calculus |
+| [Yeller Quarry Data Science](https://github.com/buildLittleWorlds/yeller-quarry-data-science) | Pandas through a missing-persons investigation |
 | [Journeys and Graphs](https://github.com/buildLittleWorlds/journeys-and-graphs) | Graph theory and networks |
-| [Codes & Puzzles](https://github.com/buildLittleWorlds/codes-puzzles-pattern-recognition) | Pattern recognition |
-| [Constructed Languages](https://github.com/buildLittleWorlds/constructed-languages-formal-systems) | Formal language theory |
 | [Ore to Tables](https://github.com/buildLittleWorlds/ore-to-tables) | Synthetic data generation from narrative |
 
-### Hugging Face Series (7 courses)
-From first inference call to deploying domain-specific models—all using Densworld content.
+### In Active Development
+
+**Grokking Series (7 courses)** — Understanding neural network generalization through the lens of Densworld pattern-learning. Based on recent ML interpretability research.
 
 | Course | Focus |
 |--------|-------|
-| [The Archivist's Inference Engine](https://github.com/buildLittleWorlds/archivist-inference-engine) | Pipelines, basic inference |
-| [Expedition Cartographer Workshop](https://github.com/buildLittleWorlds/expedition-cartographer-workshop) | Embeddings, retrieval systems |
-| [Space Builders Mirado](https://github.com/buildLittleWorlds/space-builders-mirado) | Model fine-tuning |
-| [Forge Yeller Quarry](https://github.com/buildLittleWorlds/forge-yeller-quarry) | Generative models |
-| [Densworld Oracle](https://github.com/buildLittleWorlds/densworld-oracle) | Conversational AI |
-| [Wanderer Experiments](https://github.com/buildLittleWorlds/wanderer-experiments) | Advanced applications |
-| [Noise and the Signal](https://github.com/buildLittleWorlds/noise-and-signal) | Synthesis and reflection |
+| [What Is Grokking](https://github.com/buildLittleWorlds/grokking-what-is-grokking) | Introduction to delayed generalization |
+| [Inside the Model](https://github.com/buildLittleWorlds/grokking-inside-the-model) | Model internals |
+| [Phase Transition](https://github.com/buildLittleWorlds/grokking-phase-transition) | Training dynamics |
+| [Mechanistic Interpretability](https://github.com/buildLittleWorlds/grokking-mechanistic-interpretability) | Understanding learned algorithms |
+| + 3 more courses | Advanced applications |
 
-### Access Architectures (5 courses)
-Build production systems that grant controlled access to fictional worlds.
+**Air Series (8 courses)** — Web development using the Air framework, building "The Dens App"—a W2 research platform where scholars study W1. This series develops the underexplored W2 (outer world) while teaching modern web development.
 
 | Course | Focus |
 |--------|-------|
-| [The Oracle's Gate](https://github.com/buildLittleWorlds/access-oracles-gate) | Conversational access with guardrails |
-| [The Cartographer's API](https://github.com/buildLittleWorlds/access-cartographers-api) | Programmatic data access |
-| [The Generator's Forge](https://github.com/buildLittleWorlds/access-generators-forge) | Constrained generative access |
-| [The Architect's Dilemma](https://github.com/buildLittleWorlds/access-architects-dilemma) | Access philosophy and policy |
-| [The Living World](https://github.com/buildLittleWorlds/access-living-world) | Capstone: integrated platform |
+| [Dens App Landing](https://github.com/buildLittleWorlds/air-01-dens-app-landing) | Air basics, HTML generation |
+| [Encyclopedia Module](https://github.com/buildLittleWorlds/air-02-encyclopedia-module) | Database integration |
+| + 6 more courses | Full-stack development |
 
----
+**The Compiler's Eye (7 courses)** — Teaching AI image generation through Densworld's material culture. The insight: prompts grounded in specific material traditions (pigments from particular places, inks made from documented substances) produce more distinctive output than generic prompts.
 
-## The Masters Program
+### Structural / Reference
 
-**Master of Arts in Speculative Mathematics** — a self-paced graduate curriculum exploring whether retrieval-based and geometry-based mathematical frameworks can be reconciled.
-
-This isn't a metaphor either. There's a real schism in how mathematicians approach intelligence: some see cognition as *lookup* (retrieval, discrete, database-like), others as *movement* (geometric, continuous, manifold-like). The scholars of Densworld embody both traditions without knowing the other exists.
+**The Masters Program** — A graduate-level curriculum exploring whether retrieval-based and geometry-based mathematical frameworks can be reconciled. The Densworld scholars embody both traditions without knowing the other exists.
 
 | Semester | Focus |
 |----------|-------|
-| 1 | [Mathematical Foundations](https://github.com/buildLittleWorlds/masters-program-semester-1) |
-| 2 | [The Retrieval Tradition](https://github.com/buildLittleWorlds/masters-program-semester-2) |
-| 3 | [The Geometric Tradition](https://github.com/buildLittleWorlds/masters-program-semester-3) |
-| 4 | [Synthesis & Thesis](https://github.com/buildLittleWorlds/masters-program-semester-4) |
+| [Semester 1](https://github.com/buildLittleWorlds/masters-program-semester-1) | Mathematical foundations |
+| [Semester 2](https://github.com/buildLittleWorlds/masters-program-semester-2) | The retrieval tradition |
+| [Semester 3](https://github.com/buildLittleWorlds/masters-program-semester-3) | The geometric tradition |
+| [Semester 4](https://github.com/buildLittleWorlds/masters-program-semester-4) | Synthesis |
 
-**Prerequisite:** [The Cartographer's Eye](https://github.com/buildLittleWorlds/masters-cartographers-eye) — Visual mathematics using AI image generation.
+**Gateway to Densworld** — [Entry point](https://github.com/buildLittleWorlds/gateway-to-densworld) for complete beginners. Python basics through world orientation.
 
-**Resources:** [Program Overview](https://github.com/buildLittleWorlds/masters-program-overview) | [Math Primers](https://github.com/buildLittleWorlds/masters-program-primers)
+### Scaffolding / Early Stage
 
----
-
-## The Encyclopedia
-
-The **Densworld Encyclopedia** tracks ~500 entities across the fictional universe: scholars, places, creatures, organizations, concepts, and events. It exists to keep the world consistent as courses and datasets grow.
-
-### Featured Scholars
-
-The Philosophy of Pattern courses center on scholars whose frameworks map to ML techniques:
-
-| Scholar | Framework | ML Concept |
-|---------|-----------|------------|
-| Erris Pol | Form Library | Latent spaces, embeddings |
-| Pell Anster | TAME hierarchy | Hierarchical clustering |
-| Pemlik Tross | Constellation theory | Signed graphs, spectral methods |
-| Rellen Voss | Attractor navigation | Gradient descent, optimization |
-| Sareth Moll | Ghost persistence | Memory decay, attention |
-| Tessyn Mord | Federation theory | Multi-agent systems |
-| Archon Vells | Ingression mechanics | Generative models |
-| Kella Vorn | Pathology taxonomy | Anomaly detection |
-| Kellis Vorn | Opacity conventions | Differential privacy |
-
-Additional scholars appear across datasets: Vornis Keth (resonance calculus), Mira Strand (cognitive horizons), Tobin Creel (polycomputing), Lurra Venn (journey archetypes), Grigsu Haldo (Yeller studies).
-
-### Featured Characters
-
-Beyond the scholarly debates, recurring characters thread through courses:
-
-- **Jackson** — The unclassifiable. Breaks every prediction model, every taxonomy. Appears as a Klutch CC student who defied the retention algorithm, a mall phone seller, a legend at Old Soldier Fountain.
-- **The Colonel** — Military leader of the Siege of Mirado. Commands the Five Columns. Keeps rabbits during warfare.
-- **Quonxy** — Addiction counselor, puzzle therapist, detective, Sunday school teacher. Invented "think-switches" and runs the Soup House.
-- **Little Porn** — Eight-year-old prodigy who creates and sells puzzle languages. His LPN notation catalogs jigsaw piece shapes.
-
-### Entity Categories
-
-| Category | Count | Examples |
-|----------|-------|----------|
-| People | ~200 | Scholars, military figures, traders, students |
-| Places | ~60 | Seven boroughs, the Archive, Tower of Mirado |
-| Creatures | ~30 | Yeller, Stickmen, Bag Heads, Gretl Fawn |
-| Organizations | ~40 | Cartographer's Guild, Cafnet party, The Senate |
-| Concepts | ~100 | TAME hierarchy, Form Library, Ghost Persistence |
-| Events | ~30 | Siege of Mirado, The Incident, The Grigsu Notebooks |
-
-### How It Connects
-
-```
-    ┌─────────────────┐
-    │   ENCYCLOPEDIA  │ ←── Datasets are primary sources
-    │   (~500 entries)│ ──→ Entity names populate dataset columns
-    └────────┬────────┘
-             │
-    ┌────────┴────────┐
-    │                 │
-┌───▼───┐       ┌─────▼─────┐
-│COURSES│ ←───→ │ DATASETS  │
-│(40+)  │       │ (200+)    │
-└───────┘       └───────────┘
-```
-
-The encyclopedia is not published separately—it lives in the development repository to maintain world consistency. If you're working through the courses, you'll encounter these entities organically through the narrative and data.
+- **GLM Series** — Generalized linear models. 2 notebooks exist.
+- **Access Architectures** — Building production systems with guardrails. Framework exists, courses sparse.
+- **Hugging Face Series** — Modern ML infrastructure. 7 course folders, varying completion.
+- **GIS Courses** — Spatial data science. 2 courses, early development.
 
 ---
 
-## The Datasets
+## The World Itself
 
-All course notebooks load data from [densworld-datasets](https://github.com/buildLittleWorlds/densworld-datasets), a central repository of 200+ CSV files. These datasets contain:
+### Two Worlds
 
-- **Scholar observations** — Field notes from Vornis Keth, ghost surveys from Sareth Moll
-- **Expedition logs** — Cartographer journeys, creature sightings, coordinate measurements
-- **Archive records** — Manuscript catalogs, scholarly debates, staff registries
-- **Character tracking** — Journey archetypes, career trajectories, prediction model data
-- **Event timelines** — The Siege of Mirado, institutional histories
+**W1 (Inner World)** — Densworld proper. Pre-modern technology, scholarly guilds, strange creatures, unstable territory near the Dens. Scholars like Vornis Keth develop "resonance calculus" to map curved coordinates; Pemlik Tross creates "constellation theory" to model affinity and antipathy. They don't know they're doing spectral clustering or signed graph analysis.
 
-Courses load these datasets at runtime via URL, so you don't need to download anything locally. If you're curious about what data exists, browse the [dataset repository](https://github.com/buildLittleWorlds/densworld-datasets).
+**W2 (Outer World)** — A near-future Earth where scholars study W1 as a historical/scientific curiosity. The "Dens App" exists here. W2 is mostly unexplored—the Air series develops it.
+
+### The Center/Margins Pattern
+
+A structural pattern I discovered while generating ore: The Capital believes in stable, codifiable knowledge—one method, universally applicable, centrally certified. But territories near the Dens resist this. Things shift. Classifications change. Single-pass methods don't just fail—they sometimes *cause* the instability they try to address.
+
+This manifests across domains:
+- Cartography (single-pass surveying fails at the Dens border)
+- Classification (the Archive's taxonomy causes dissolution events)
+- Training (standardized curricula fail in Densmok)
+- Treatment (Bureau protocols fail in the Western Reaches)
+
+Local practitioners develop adaptive alternatives. The Capital calls it "contaminated methodology." The knowledge survives at the margins.
+
+### Notable Characters
+
+**Jackson** — The unclassifiable. Breaks every prediction model, every taxonomy. Appears as a Klutch CC student who defied the retention algorithm, a mall phone seller, a legend at Old Soldier Fountain. Multiple courses use Jackson data; no course can explain him.
+
+**Quonxy** — Appears across five different ore contexts doing the same thing: developing iterative, stance-based methods, getting expelled for "contaminated methodology," continuing at the margins. Addiction counselor, puzzle therapist, expelled cartographer, Sunday school teacher.
+
+**The Densworld Scholars** — Erris Pol, Pemlik Tross, Vornis Keth, and others. Their philosophical frameworks are the pedagogical core of the courses.
+
+---
+
+## The Infrastructure
+
+### Datasets
+
+All 201 datasets live in [densworld-datasets](https://github.com/buildLittleWorlds/densworld-datasets). Notebooks load them at runtime via URL. The datasets contain:
+
+- Scholar observations (field notes from Vornis Keth, ghost surveys from Sareth Moll)
+- Expedition logs (cartographer journeys, creature sightings)
+- Archive records (manuscript catalogs, scholarly debates, staff registries)
+- Character tracking (journey archetypes, prediction model failures)
+- Event timelines (the Siege of Mirado, institutional histories)
+
+### Encyclopedia
+
+~2,000 entities tracked for world consistency: creatures, people, places, concepts, events, objects, organizations. Not published separately—it lives in the development repository.
+
+### Ore Fragments
+
+Source narrative material. Some hand-written, some AI-assisted with human curation. The ore feeds the datasets; the datasets feed the courses.
+
+### The Densworld Papers
+
+[An auto-generating archive site](https://github.com/buildLittleWorlds/densworld-papers) that catalogs all datasets. Framed as a W2 research archive. Built, ready to deploy.
+
+### The Jackson Interpretation
+
+A planned W2 research blog presenting heterodox interpretations of W1 data. Currently in planning phase.
 
 ---
 
@@ -183,16 +175,23 @@ Courses load these datasets at runtime via URL, so you don't need to download an
 [Gateway to Densworld](https://github.com/buildLittleWorlds/gateway-to-densworld) teaches Python basics while orienting you to the world.
 
 **Know Python, want ML fundamentals?**
-Start with [The Form Library](https://github.com/buildLittleWorlds/philosophy-form-library) — the first course in the Philosophy of Pattern series.
+Start with [The Form Library](https://github.com/buildLittleWorlds/philosophy-form-library)—the first Philosophy of Pattern course.
 
-**Want to build with modern AI infrastructure?**
-[The Archivist's Inference Engine](https://github.com/buildLittleWorlds/archivist-inference-engine) begins the Hugging Face series.
+**Interested in the synthetic data generation process?**
+[Ore to Tables](https://github.com/buildLittleWorlds/ore-to-tables) teaches how narrative becomes structured data.
 
-**Curious about the mathematics of intelligence?**
-[The Cartographer's Eye](https://github.com/buildLittleWorlds/masters-cartographers-eye) prepares you for the Masters Program.
+**Want to explore the datasets directly?**
+Browse [densworld-datasets](https://github.com/buildLittleWorlds/densworld-datasets) or wait for The Densworld Papers archive site.
 
-**Want to learn synthetic data generation?**
-[Ore to Tables](https://github.com/buildLittleWorlds/ore-to-tables) teaches how to transform narrative source material into structured datasets.
+---
+
+## Why This Exists
+
+I couldn't learn ML from textbooks. The examples were too abstract, the motivation too distant. So I built a world that required these techniques to exist—a world where scholars needed dimensionality reduction to organize their Form Libraries, where cartographers needed optimization to navigate unstable territory, where archivists needed anomaly detection to identify classification failures.
+
+The fiction forced me to understand the concepts well enough to embed them in narrative. The datasets forced consistency. The encyclopedia forced integration. Each new course became another piece of a world that was teaching me as I built it.
+
+Whether this approach is useful to anyone else, I don't know. But the courses are here if you want them.
 
 ---
 

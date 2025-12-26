@@ -1,83 +1,41 @@
-## Learn Applied AI Through a Fictional World
+## Memorizing Dante's Divine Comedy with AI-Generated Memory Palaces
 
-An experimental course series that teaches HuggingFace and modern AI tools using data from an imaginary world—so you actually have to learn the skills.
+An ongoing project to memorize all 14,233 lines of Dante's *Commedia* in Italian using AI-generated images as memory palaces.
 
----
-
-### What This Is
-
-A 6-course series that takes you from zero to building AI systems: embeddings, semantic search, fine-tuning, RAG, and deployment. All using HuggingFace tools.
-
-The twist: all the data comes from **Densworld**, a fictional universe with its own scholars, creatures, and archives. You can't Google the answers. You can't ask ChatGPT for the "correct" analysis of Yeller Quarry migration patterns—because no one else has this data.
-
-This is experimental work. I'm testing whether fictional context makes AI education more effective.
+**Live pages:** [buildlittleworlds.github.io/commedia-memory-palace](https://buildlittleworlds.github.io/commedia-memory-palace/)
 
 ---
 
-## The Courses
+### The Method
 
-| Course | What You Learn |
-|--------|----------------|
-| [The Archivist's Inference Engine](https://github.com/buildLittleWorlds/archivist-inference-engine) | HuggingFace pipelines: text classification, NER, summarization |
-| [The Expedition Cartographer's Workshop](https://github.com/buildLittleWorlds/expedition-cartographer-workshop) | Embeddings, vector similarity, semantic search |
-| [The Space Builders of Mirado](https://github.com/buildLittleWorlds/space-builders-mirado) | Building and deploying apps with Gradio and HF Spaces |
-| [The Forge at Yeller Quarry](https://github.com/buildLittleWorlds/forge-yeller-quarry) | Fine-tuning models with LoRA |
-| [The Densworld Oracle](https://github.com/buildLittleWorlds/densworld-oracle) | Building RAG systems with LlamaIndex |
-| [The Wanderer's Experiments](https://github.com/buildLittleWorlds/wanderer-experiments) | Model evaluation, comparison, and selection |
+Each image anchors 6 lines of Italian verse (2 tercets). The images are generated with AI (Nano Banana Pro) and depict scenes from **Densworld**—a fictional universe with its own geography, scholars, and creatures.
 
-All notebooks run in Google Colab—no local setup required.
+The mapping between Dante's text and Densworld locations is **arbitrary by design**. No thematic matching. The "dark wood" doesn't map to a forest; "celestial" doesn't map to a tower. This arbitrariness is the point—resonance emerges through the act of memorization, not through pre-planned correspondence.
 
 ---
 
-## What You Can Do After
+### The W1/W2 Framework
 
-By the end of the series, you can:
+- **W2** (our world) creates **W1** (Densworld) as a mnemonic system
+- Each generated image is a "build-stone"—a visual anchor for both the imaginary world and the memorized text
+- As more images accumulate, W1 becomes a cognitive architecture that shapes how the text is understood
 
-- **Use pre-trained models** for classification, extraction, and generation
-- **Build semantic search** over any document collection
-- **Fine-tune models** on domain-specific data using LoRA
-- **Create RAG systems** that answer questions from your own documents
-- **Deploy applications** to HuggingFace Spaces
-- **Evaluate and compare models** for your use case
-
-These are the skills currently in demand for applied AI work.
+The method of loci, applied at scale.
 
 ---
 
-## Why Fictional Data?
+### Project Stats
 
-Standard datasets (iris, titanic, MNIST) have a problem: every answer is already on the internet. Students can copy solutions without understanding the process.
-
-Densworld data is different. The 347 CSV files in this universe contain:
-- Expedition logs from fictional cartographers
-- Creature sightings with made-up taxonomy
-- Scholar correspondence about invented philosophical frameworks
-- Archive records from imaginary institutions
-
-The skills transfer to real data. But you have to actually develop them—there's no shortcut.
+| Metric | Value |
+|--------|-------|
+| Lines per image | 6 |
+| Total lines | 14,233 |
+| Total images needed | ~2,372 |
+| Timeline | ~13 months |
 
 ---
 
-## Who Might This Be For?
-
-I'm genuinely testing this. These courses might work for:
-
-- **Self-learners** who want hands-on AI skills
-- **Students** looking for project-based learning
-- **Educators** who need assessments students can't cheat on
-- **Anyone** curious about RAG, fine-tuning, or HuggingFace
-
-If you try these and find them useful (or not), I'd like to know.
-
----
-
-## Getting Started
-
-Start with [The Archivist's Inference Engine](https://github.com/buildLittleWorlds/archivist-inference-engine). It introduces HuggingFace pipelines and the Densworld context. Each course builds on the previous one.
-
----
-
-## About
+### About
 
 I'm Daniel Plate—AI researcher and professor at [Lindenwood University](https://www.lindenwood.edu/).
 
@@ -90,4 +48,4 @@ I'm Daniel Plate—AI researcher and professor at [Lindenwood University](https:
 
 ---
 
-*This is experimental, personal work—not institutional material. Densworld and all derived datasets are original creative property.*
+*Densworld and all derived materials are original creative property.*

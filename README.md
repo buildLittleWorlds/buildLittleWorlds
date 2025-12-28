@@ -1,16 +1,16 @@
-## Memorizing Scripture with AI-Generated Memory Palaces
+## Memorizing Dante's Commedia with AI-Generated Memory Palaces
 
-An ongoing project to memorize Bible verses using AI-generated images as memory palaces.
+An ongoing project to memorize Dante's Divine Comedy (14,233 lines of Italian poetry) using AI-generated images as memory palaces.
 
-**Live pages:** [buildlittleworlds.github.io/bible-mnemonics](https://buildlittleworlds.github.io/bible-mnemonics/)
+**Live pages:** [buildlittleworlds.github.io/commedia-memory-palace](https://buildlittleworlds.github.io/commedia-memory-palace/)
 
 ---
 
 ### The Method
 
-Each image anchors one Bible passage (up to 6 phrasal units). The images are generated with AI and depict scenes from **Densworld**—a fictional universe with its own geography, scholars, and creatures.
+Each image anchors 6 lines of the Commedia (2 tercets). The images are generated with AI and depict scenes from **Densworld**—a fictional universe with its own geography, scholars, and creatures.
 
-The mapping between Scripture and Densworld locations is **arbitrary by design**. No thematic matching. A verse about peace doesn't map to a peaceful scene; a verse about light doesn't map to a bright image. This arbitrariness is the point—resonance emerges through the act of memorization, not through pre-planned correspondence.
+The mapping between Dante and Densworld locations is **arbitrary by design**. No thematic matching. The "dark wood" doesn't map to a dark scene; the celestial spheres don't map to bright images. This arbitrariness is the point—resonance emerges through the act of memorization, not through pre-planned correspondence.
 
 ---
 
@@ -18,9 +18,9 @@ The mapping between Scripture and Densworld locations is **arbitrary by design**
 
 - **W2** (our world) creates **W1** (Densworld) as a mnemonic system
 - Each generated image is a "build-stone"—a visual anchor for both the imaginary world and the memorized text
-- As more images accumulate, W1 becomes a cognitive architecture that shapes how Scripture is understood
+- As more images accumulate, W1 becomes a cognitive architecture that shapes how the Commedia is understood
 
-The method of loci, applied to verse memorization.
+The method of loci, applied to epic poetry.
 
 ---
 
@@ -29,8 +29,8 @@ The method of loci, applied to verse memorization.
 The images use a **Densworld field sketch** aesthetic:
 - Watercolor wash atmosphere with ink line work
 - Crosshatching for texture in backgrounds
-- Murky, watching quality—something is always aware
-- 6 distinct object loci arranged in a zigzag path
+- 6 distinct object loci per image
+- Flexible arrangements (3+3, 4+2, or 2+4 foreground/background splits)
 
 ---
 

@@ -1,5 +1,7 @@
 ## Teaching AI, ML, and Data Science Through an Imaginary World
 
+![Densworld](hero.png)
+
 An experiment in making machine learning accessible and engaging: what if students learned AI concepts by exploring a fictional universe instead of working with generic datasets?
 
 **Densworld** is an imaginary world with its own geography, scholars, creatures, and history. The courses below use Densworld as a teaching context—students analyze creature populations, investigate manuscript forgeries, map traveler networks, and build AI systems that understand the world's lore.

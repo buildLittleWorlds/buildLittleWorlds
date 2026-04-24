@@ -1,72 +1,101 @@
-## Teaching AI, ML, and Data Science Through an Imaginary World
+# Daniel Plate
 
-![Densworld](hero.png)
+**AI authorship, disclosure ethics, creative autonomy, and AI-native pedagogy**
 
-An experiment in making machine learning accessible and engaging: what if students learned AI concepts by exploring a fictional universe instead of working with generic datasets?
+I research and teach at the intersection of generative AI, writing, authorship, creative agency, and applied humanities computing. My current work asks when AI disclosure creates real accountability, and when it becomes process surveillance, gatekeeping, or a substitute for judging the finished work.
 
-**Densworld** is an imaginary world with its own geography, scholars, creatures, and history. The courses below use Densworld as a teaching context—students analyze creature populations, investigate manuscript forgeries, map traveler networks, and build AI systems that understand the world's lore.
-
-The approach has three advantages:
-1. **Engagement**: Narrative context makes technical concepts feel meaningful
-2. **Originality**: Densworld data doesn't exist online—students can't copy solutions
-3. **Exploration**: Students discover patterns in data that genuinely surprise them
-
-All courses run in **Google Colab** (free, browser-based). No installation required.
+My position is not anti-accountability. It is against **blanket, mandatory, process-level AI disclosure** as the default measure of integrity. I am interested in better models: responsibility for the final work, transparency around systems and outcomes, privacy of creative process, and pedagogies that help people use AI critically and openly.
 
 ---
 
-### Foundational Courses
+## Current Research
 
-**[Gateway to Densworld](https://github.com/buildLittleWorlds/gateway-to-densworld)**
-*Python fundamentals → pandas → data visualization*
-11 tutorials taking complete beginners from first code cell to data analysis. Each region of Densworld connects to a technical skill.
+### AI disclosure and creative autonomy
 
-**[Yeller Quarry Data Science](https://github.com/buildLittleWorlds/yeller-quarry-data-science)**
-*pandas mastery through investigation*
-Deep data analysis via a creature-trapping mystery. Named characters, emotional stakes, and a capstone investigation into "the Boss's" disappearance.
+My recent book with James Hutson, [_The Case Against Disclosure: Defending Creative Autonomy in the Age of AI_](https://digitalcommons.lindenwood.edu/faculty-research-papers/756/), challenges the assumption that creators should be required to document every use of generative AI in creative, scholarly, professional, or technical production.
 
-**[Capital Archives NLP](https://github.com/buildLittleWorlds/capital-archives-nlp)**
-*Classical NLP and text analysis*
-Learn text processing, TF-IDF, topic modeling, and stylometry by investigating whether ancient manuscripts were forged by a rival philosopher.
+The core argument: authorship should be grounded in responsibility, judgment, and accountability for the work as presented, not in exhaustive reporting of every tool, prompt, revision, or technological intervention.
 
-**[Journeys and Graphs](https://github.com/buildLittleWorlds/journeys-and-graphs)**
-*Network analysis and graph algorithms*
-Build traveler networks, implement Markov chains, calculate centrality measures, and predict journey outcomes using movement data.
+Related work extends this argument into labor and professional practice, especially the idea that workers may need selective non-transparency to protect method discretion, intellectual capital, and human dignity in AI-mediated work.
 
----
+**Start here:**
 
-### Applied AI Courses
+- [_The Case Against Disclosure: Defending Creative Autonomy in the Age of AI_](https://digitalcommons.lindenwood.edu/faculty-research-papers/756/)
+- [_The Case for Selective Non-Transparency in AI-Mediated Work: A Workers Rights Framework_](https://digitalcommons.lindenwood.edu/faculty-research-papers/787/)
+- [_The Intellectual Bankruptcy of Anti-AI Academic Alarmism: A Rebuttal_](https://digitalcommons.lindenwood.edu/faculty-research-papers/774/)
 
-**[The Archivist's Inference Engine](https://github.com/buildLittleWorlds/archivist-inference-engine)**
-*Modern NLP with Hugging Face transformers*
-Use pre-trained models for classification, named entity recognition, summarization, and question answering. Students become "inference clerks" at the Capital Archives.
+### AI, writing, and authorial agency
 
-**[The Expedition Cartographer's Workshop](https://github.com/buildLittleWorlds/expedition-cartographer-workshop)**
-*Embeddings, semantic search, and vector databases*
-Generate sentence embeddings, build semantic search systems, and create the "Lore Navigator"—a retrieval system over 961 narrative fragments. This is the technology behind modern RAG systems.
+A second strand of my work focuses on AI-assisted writing as curation rather than replacement. I am interested in how writers can use AI systems to develop voice, style, revision habits, rhetorical control, and metacognitive awareness while remaining responsible agents inside AI-mediated writing systems.
+
+**Selected work:**
+
+- [_Writing as Curation: Empowering Authorial Agency in AI-Assisted Composition Through Style Prompting and Quotation Glosses_](https://digitalcommons.lindenwood.edu/ijedie/vol3/iss1/3/)
+- [_Bridging Classical Rhetoric and AI: A Systematic Framework for Developing Authorial Voice Through Large Language Models_](https://digitalcommons.lindenwood.edu/theses/1411/)
+- [_Generative AI in the English Composition Classroom: Practical and Adaptable Strategies_](https://www.taylorfrancis.com/books/edit/10.4324/9781003507949/generative-ai-english-composition-classroom-james-hutson-daniel-plate-elizabeth-melick-susan-edele)
+- [_Working With (Not Against) the Technology: GPT-3 and Artificial Intelligence in College Composition_](https://digitalcommons.lindenwood.edu/faculty-research-papers/490/)
+- [_Embracing AI in English Composition: Insights and Innovations in Hybrid Pedagogical Practices_](https://ojs.bonviewpress.com/index.php/IJCE/article/view/2290)
 
 ---
 
-### Central Dataset Repository
+## Coding Experiments
 
-**[densworld-datasets](https://github.com/buildLittleWorlds/densworld-datasets)**
-277 CSV files containing structured Densworld data: creatures, scholars, expeditions, market transactions, philosophical treatises, and more. All courses load data directly from this repository.
+I build small-to-medium experiments that make AI systems legible to students, writers, and non-specialist builders. Most of these projects sit between research, teaching, and toolmaking: run a model, break an assumption, inspect the output, document the choice, and try again.
+
+### AI learning and model literacy
+
+- [10 Things to Try with Hugging Face Transformers](https://github.com/buildLittleWorlds/10-things-to-try-with-hugging-face)
+  A ten-notebook beginner course on Hugging Face pipelines, NLP tasks, embeddings, model comparison, and pipeline internals.
+
+- [10 Things to Try with Vision Transformers](https://github.com/buildLittleWorlds/10-things-to-try-vision-transformers)
+  A companion course on image classification, object detection, segmentation, captioning, CLIP, visual question answering, and vision pipeline internals.
+
+- [Human-Centered AI Applications](https://github.com/buildLittleWorlds/human-centered-ai-applications)
+  An applied AI course where non-CS undergraduates move from a problem they care about to a deployed AI application using a Plan-Direct-Examine-Record workflow.
+
+- [AI Model Experiments](https://github.com/buildLittleWorlds/ai-model-experiments)
+  A hands-on Hugging Face and Colab curriculum for running models, comparing outputs, reading model cards, and testing limitations.
+
+- [Claude Code Skills: Basics and Beyond](https://github.com/buildLittleWorlds/claude-code-skills-basics-and-beyond)
+  A course sequence on Claude Code, skills, hooks, subagents, terminal workflows, and multi-step AI-assisted development.
+
+### Applied research and writing tools
+
+- [Transformers.js Experiments](https://github.com/buildLittleWorlds/transformers-js-experiments)
+  Browser-based experiments with client-side transformer models, WebGPU, ONNX Runtime, and lightweight AI interfaces.
+
+- [Bluest Hour Almanac](https://github.com/buildLittleWorlds/bluest-hour-almanac)
+  A design and AI classification experiment built from a blue-hour walk journal and in-browser emotion classification.
+
+- [AI-Assisted Course and Research Experiments](https://github.com/buildLittleWorlds?tab=repositories&q=ai&type=source)
+  Ongoing prototypes for AI-native teaching, model evaluation, writing pedagogy, and humanities-centered technical education.
 
 ---
 
-### About
+## Books and Selected Publications
 
-I'm Daniel Plate—AI researcher and professor at [Lindenwood University](https://www.lindenwood.edu/).
-
-These courses grew from experiments in teaching data science and machine learning. The fictional context was initially a way to prevent cheating, but it turned out to be something more: students engaged differently when they were investigating a world rather than completing exercises.
-
-**Recent publications:**
-- *Beyond Code: Redefining Programming Education Beyond STEM* (CRC Press/Routledge, 2025)
-- *The Case Against Disclosure: Defending Creative Autonomy in the Age of AI* (Common Ground, 2025)
-- *Generative AI in the English Composition Classroom* (Routledge, 2024)
-
-**Contact:** DPlate@lindenwood.edu
+| Area | Work |
+|---|---|
+| AI disclosure | [_The Case Against Disclosure: Defending Creative Autonomy in the Age of AI_](https://digitalcommons.lindenwood.edu/faculty-research-papers/756/) |
+| AI and labor/process privacy | [_The Case for Selective Non-Transparency in AI-Mediated Work_](https://digitalcommons.lindenwood.edu/faculty-research-papers/787/) |
+| AI and authorship | [_Writing as Curation_](https://digitalcommons.lindenwood.edu/ijedie/vol3/iss1/3/) |
+| AI writing pedagogy | [_Generative AI in the English Composition Classroom_](https://www.taylorfrancis.com/books/edit/10.4324/9781003507949/generative-ai-english-composition-classroom-james-hutson-daniel-plate-elizabeth-melick-susan-edele) |
+| AI-powered coding | [_Beyond Code: Redefining Programming Education Beyond STEM_](https://digitalcommons.lindenwood.edu/faculty-research-papers/752/) |
+| AI, agency, responsibility | [_Mind, Machine, and Will: Determinism, Responsibility, and Agency in the Age of AI_](https://digitalcommons.lindenwood.edu/faculty-research-papers/763/) |
 
 ---
 
-*Densworld and all derived materials are original creative property.*
+## What I Am Building Now
+
+- Public research materials on AI disclosure, authorship, creative autonomy, and selective non-transparency
+- AI-native humanities courses that teach technical systems without requiring a computer science identity
+- Writing pedagogies that treat AI as a collaborator in revision, style, and rhetorical exploration
+- Coding experiments that help students inspect models, evaluate outputs, and make responsible design choices
+
+---
+
+## Links
+
+- [Lindenwood faculty profile](https://www.lindenwood.edu/arts-and-humanities/english-language-interdisciplinary-studies/english-ba/faculty/dan-plate/)
+- [ORCID](https://orcid.org/0000-0002-1238-5425)
+- [GitHub](https://github.com/buildLittleWorlds)
